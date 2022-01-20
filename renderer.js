@@ -1,8 +1,5 @@
 const { ipcRenderer } = require('electron')
 const moment = require('moment-timezone')
-const React = require('react');
-const ReactDOM = require('react-dom');
-
 
 const animalsSection = document.querySelector('.animals');
 const addAnimalForm = document.querySelector('.add-animal-form');
