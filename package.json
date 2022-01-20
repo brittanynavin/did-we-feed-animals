@@ -1,0 +1,26 @@
+{
+  "name": "did-we-feed-animals",
+  "version": "1.0.0",
+  "description": "An application that keeps track of feeding animals",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittanynavin/did-we-feed-animals.git"
+  },
+  "author": "Brittany Navin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brittanynavin/did-we-feed-animals/issues"
+  },
+  "homepage": "https://github.com/brittanynavin/did-we-feed-animals#readme",
+  "devDependencies": {
+    "electron": "^16.0.7"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.34"
+  }
+}

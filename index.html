@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Did We Feed Our Animals</title>
+  </head>
+  <body>
+    <h1>Did We Feed Our Animals</h1>
+    <div class="row">
+      <div class="column">
+        <h3>Current Date</h3>
+        <h5 id="current-date"></h5>
+      </div>
+      <div class="column">
+        <h3>Current Timezone</h3>
+        <h5 id="current-timezone"></h5>
+      </div>
+    </div>
+   
+   
+
+    <h2>Add Animal</h2>
+    
+    <form class="add-animal-form">
+      <label for="animal-name">Animal Name</label>
+      <input type="text" class="add-animal-input" name="animal-name" required>
+      <input type="submit" class="add-animal-submit" value="Add">
+    </form>
+
+
+    <h2>My Animals</h2>
+    <section class="animals">
+      
+    </section>
+
+    <input type="button" id="clear-animals" value="Clear animals">
+   
+  </body>
+  <script src="./renderer.js"></script>
+</html>
